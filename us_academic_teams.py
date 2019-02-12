@@ -21,3 +21,5 @@ acad = [row.a.string for row in l]
 us_acad = [team for team in acad if team in us]
 
 print(us_acad)
+print()
+print("blue hens is " + str(us_acad.index("Blue Hens") + 1))
